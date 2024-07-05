@@ -3,7 +3,7 @@ function checkAnswer() {
     const result = document.getElementById('result');
 
     if (answerInput === "解答") {
-        result.textContent = "おめでとう!";
+        result.innerHTML = '<a href="https://arashiyoshioka.github.io/3-A-zaseki/" target="_blank">座席表　（７月５日～）</a>';
     } else if (answerInput === "真実") {
         result.textContent = "完全解決!　ありがとう!";
     } else {
